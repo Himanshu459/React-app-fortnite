@@ -9,14 +9,7 @@ const  Nav=()=>{
   return (
     <nav>
         <h3>Logo</h3>
-        <ul className="nav-links">
-            <Link style={navStyle} to="/About">
-            <li>About</li>
-            </Link>
-            <Link style={navStyle} to="/Shop">
-            <li>Shop</li>
-            </Link>
-        </ul>
+      
     </nav>
   );
 }
